@@ -7,9 +7,9 @@ dnl without editing.
 
 dnl If your extension references something external, use with:
 
-dnl PHP_ARG_WITH(guanguans, for guanguans support,
+PHP_ARG_WITH(guanguans, for guanguans support,
 dnl Make sure that the comment is aligned:
-dnl [  --with-guanguans             Include guanguans support])
+[  --with-guanguans             Include guanguans support])
 
 dnl Otherwise use enable:
 
@@ -63,7 +63,7 @@ if test "$PHP_GUANGUANS" != "no"; then
 
   dnl # --with-guanguans -> check for lib and symbol presence
   dnl LIBNAME=guanguans # you may want to change this
-  dnl LIBSYMBOL=guanguans # you most likely want to change this 
+  dnl LIBSYMBOL=guanguans # you most likely want to change this
 
   dnl PHP_CHECK_LIBRARY($LIBNAME,$LIBSYMBOL,
   dnl [
