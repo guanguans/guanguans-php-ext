@@ -49,19 +49,12 @@ PHP_INI_END()
    purposes. */
 
 /* Every user-visible function in PHP should document itself in the source */
-/* {{{ proto string confirm_guanguans_compiled(string arg)
+/* {{{ proto string guanguans(string arg)
    Return a string to confirm that the module is compiled in */
-PHP_FUNCTION(confirm_guanguans_compiled)
+PHP_FUNCTION(guanguans)
 {
-	char *arg = NULL;
-	size_t arg_len, len;
 	zend_string *strg;
-
-	if (zend_parse_parameters(ZEND_NUM_ARGS(), "s", &arg, &arg_len) == FAILURE) {
-		return;
-	}
-
-	strg = strpprintf(0, "Congratulations! You have successfully modified ext/%.78s/config.m4. Module %.78s is now compiled into PHP.", "guanguans", arg);
+	strg = strpprintf(0, "Hello, 琯琯, this is your first PHP extension. ");
 
 	RETURN_STR(strg);
 }
@@ -146,7 +139,7 @@ PHP_MINFO_FUNCTION(guanguans)
  * Every user visible function must have an entry in guanguans_functions[].
  */
 const zend_function_entry guanguans_functions[] = {
-	PHP_FE(confirm_guanguans_compiled,	NULL)		/* For testing, remove later. */
+	PHP_FE(guanguans,	NULL)		/* For testing, remove later. */
 	PHP_FE_END	/* Must be the last line in guanguans_functions[] */
 };
 /* }}} */
