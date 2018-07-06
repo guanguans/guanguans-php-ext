@@ -27,8 +27,8 @@ extension = guanguans.so
 
 2.1 查看拓展
 
-![](https://github.com/guanguans/guanguans-php-ext/blob/master/docs/guanguans-1.png)
+![](.//docs/guanguans-1.png)
 
 2.2 测试拓展
 
-![](https://github.com/guanguans/guanguans-php-ext/blob/master/docs/guanguans-2.png)
+![](./docs/guanguans-2.png)
