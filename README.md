@@ -1,22 +1,23 @@
-# 开发一个简单的 PHP 扩展来学习 PHP 扩展开发和 PHP 内核
+开发一个简单的 PHP 扩展来学习 PHP 扩展开发和 PHP 内核
 
-## 一、安装扩展
+## 一、安装
 
-1.1 git clone
+1.1 下载
 
+``` bash
 git clone https://github.com/guanguans/guanguans-php-ext.git
+```
+1.2 编译安装
 
-1.2 编译安装拓展
-
-``` sh
-$ /path/to/phpize
-$ ./configure --with-php-config=/path/to/php-config
-$ make -j && make install
+``` bash
+/path/to/phpize
+./configure --with-php-config=/path/to/php-config
+make -j && make install
 ```
 
-1.3、在 php.ini 最后添加
+1.3 在 php.ini 中添加
 
-``` sh
+``` bash
 extension = guanguans.so
 ```
 
@@ -24,8 +25,10 @@ extension = guanguans.so
 
 ## 二、使用扩展
 
-1. 查看已经安装的拓展
+2.1 查看拓展
 
+![](https://github.com/guanguans/guanguans-php-ext/blob/master/docs/guanguans-1.png)
 
-2. 测试一下拓展
+2.2 测试拓展
 
+![](https://github.com/guanguans/guanguans-php-ext/blob/master/docs/guanguans-2.png)
