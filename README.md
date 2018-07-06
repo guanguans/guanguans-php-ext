@@ -36,3 +36,7 @@ extension = guanguans.so
 ![](./docs/guanguans-3.png)
 
 ![](./docs/guanguans-4.png)
+
+## 三、License
+
+[Apache License 2.0](./LICENSE)
