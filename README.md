@@ -15,7 +15,7 @@ git clone https://github.com/guanguans/guanguans-php-ext.git
 make -j && make install
 ```
 
-1.3 在 php.ini 中添加
+1.3 php.ini 中添加
 
 ``` bash
 extension = guanguans.so
@@ -23,7 +23,7 @@ extension = guanguans.so
 
 1.4 重启 php-fpm
 
-## 二、使用扩展
+## 二、使用
 
 2.1 查看拓展
 
@@ -31,7 +31,7 @@ extension = guanguans.so
 
 ![](./docs/guanguans-2.png)
 
-2.2 测试拓展
+2.2 测试
 
 ![](./docs/guanguans-3.png)
 
