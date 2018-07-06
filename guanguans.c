@@ -126,6 +126,9 @@ PHP_MINFO_FUNCTION(guanguans)
 {
 	php_info_print_table_start();
 	php_info_print_table_header(2, "guanguans support", "enabled");
+	php_info_print_table_row(2, "Version", PHP_GUANGUANS_VERSION);
+    php_info_print_table_row(2, "Author", "琯琯[email: yzmguanguan@gmail.com]");
+    php_info_print_table_row(2, "Functions", "guanguans()");
 	php_info_print_table_end();
 
 	/* Remove comments if you have entries in php.ini
