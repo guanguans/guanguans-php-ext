@@ -1,13 +1,13 @@
 开发一个简单的 PHP 扩展来学习 PHP 扩展开发和 PHP 内核
 
-## 一、安装
+## 安装
 
-1.1 下载
+### 下载
 
 ``` bash
 git clone https://github.com/guanguans/guanguans-php-ext.git
 ```
-1.2 编译安装
+### 编译安装
 
 ``` bash
 /path/to/phpize
@@ -15,28 +15,32 @@ git clone https://github.com/guanguans/guanguans-php-ext.git
 make -j && make install
 ```
 
-1.3 php.ini 中添加
+### php.ini 中添加
 
 ``` bash
 extension = guanguans.so
 ```
 
-1.4 重启 php-fpm
+### 重启 php-fpm
 
-## 二、使用
+``` bash
+systemctl restart php-fpm.service
+```
 
-2.1 查看拓展
+## 使用
+
+### 查看拓展
 
 ![](./docs/guanguans-1.png)
 
 ![](./docs/guanguans-2.png)
 
-2.2 测试
+### 测试
 
 ![](./docs/guanguans-3.png)
 
 ![](./docs/guanguans-4.png)
 
-## 三、License
+## License
 
 [Apache License 2.0](./LICENSE)
