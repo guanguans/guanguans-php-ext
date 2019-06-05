@@ -1,5 +1,7 @@
 开发一个简单的 PHP 扩展来学习 PHP 扩展开发和 PHP 内核
 
+[![Build Status](https://travis-ci.org/guanguans/guanguans-php-ext.svg?branch=master)](https://travis-ci.org/guanguans/guanguans-php-ext)
+
 ## 安装
 
 ### 下载
